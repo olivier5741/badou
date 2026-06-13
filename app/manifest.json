@@ -1,21 +1,21 @@
 {
-    "name": "Centre de vaccincation - calcul doses fin de journée",
-    "short_name": "Calcul doses",
-    "start_url": "index.html",
-    "scope": "./",
-    "icons": [
-      {
-        "src": "favicon.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      },
-      {
-        "src": "favicon-big.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
-    ],
-    "theme_color": "#6d9eebff",
-    "background_color": "#333",
-    "display": "standalone"
-  }
+  "name": "Babou - Calculer le montant d'une commande au bar",
+  "short_name": "Badou",
+  "start_url": "index.html",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-big.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#f9bb3c",
+  "background_color": "#333",
+  "display": "standalone"
+}
