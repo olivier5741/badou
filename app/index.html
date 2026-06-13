@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="favicon.ico" />
+    <link rel="manifest" href="manifest.json" />
+
+    <link
+      link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <title>Badou</title>
+  </head>
+  <body>
+    <div class="container" style="max-width: 600px">
+      <div class="page-header py-3">
+        <h1 class="text-center">Badou</h1>
+      </div>
+
+      <form onsubmit="return false;">
+        <div class="row mb-3">
+          <label for="product-1" class="col-form-label col-6"> Softs </label>
+          <div class="col-6">
+            <div class="input-group mb-3">
+              <button class="btn btn-outline-secondary" type="button">
+                <i class="bi bi-plus"></i>
+              </button>
+              <input
+                type="number"
+                min="0"
+                class="form-control input-sm"
+                id="product-1"
+              />
+              <button class="btn btn-outline-secondary" type="button">
+                <i class="bi bi-dash"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <label for="product-2" class="col-form-label col-8">
+            Pils / Blanche / Placebo
+          </label>
+          <div class="col-4">
+            <input
+              type="number"
+              min="0"
+              class="form-control input-sm"
+              id="product-2"
+            />
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <label for="product-3" class="col-form-label col-8">
+            Hopera / Fructus
+          </label>
+          <div class="col-4">
+            <input
+              type="number"
+              min="0"
+              class="form-control input-sm"
+              id="product-3"
+            />
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <label for="product-4" class="col-form-label col-8"> Maitrank </label>
+          <div class="col-4">
+            <input
+              type="number"
+              min="0"
+              class="form-control input-sm"
+              id="product-4"
+            />
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="row mb-3">
+          <label for="jug-1" class="col-form-label col-8">
+            Cruche Pils / Blanche
+          </label>
+          <div class="col-4">
+            <input
+              type="number"
+              min="0"
+              class="form-control input-sm"
+              id="jug-1"
+            />
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <label for="jug-2" class="col-form-label col-8">
+            Cruche Hopera / Fructus
+          </label>
+          <div class="col-4">
+            <input
+              type="number"
+              min="0"
+              class="form-control input-sm"
+              id="jug-2"
+            />
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <label for="jug-3" class="col-form-label col-8">
+            Demi cruche Maitrank
+          </label>
+          <div class="col-4">
+            <input
+              type="number"
+              min="0"
+              class="form-control input-sm"
+              id="jug-3"
+            />
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <label for="jug-4" class="col-form-label col-8">
+            Cruche Maitrank
+          </label>
+          <div class="col-4">
+            <input
+              type="number"
+              min="0"
+              class="form-control input-sm"
+              id="jug-4"
+            />
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="row mb-3">
+          <label for="return-1" class="col-form-label col-8">
+            Gobelets rendus
+          </label>
+          <div class="col-4">
+            <input type="number" min="0" class="form-control" id="return-1" />
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <label for="return-2" class="col-form-label col-8">
+            Cruches rendues
+          </label>
+          <div class="col-4">
+            <input type="number" min="0" class="form-control" id="return-2" />
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="row mb-3">
+          <label class="col-8 text-end">Total</label>
+          <p id="total" class="col-4 text-end">0</p>
+        </div>
+      </form>
+    </div>
+
+    <div class="navbar navbar-inverse navbar-fixed-bottom">
+      <div class="container">
+        <p class="navbar-text text-muted">
+          Contribute on
+          <a href="https://github.com/olivier5741/centre-de-vaccination"
+            >github</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
