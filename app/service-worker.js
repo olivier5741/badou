@@ -38,7 +38,7 @@
 "use strict";
 
 var precacheConfig = [
-  ["app.js", "285cedc45dd24e289fbfc1723a17e55e"],
+  ["app.js", "2aaa52a667834eeb9725a35308058de6"],
   ["favicon-big.png", "2d4b15686dbaf4e246ac1dc9938e2a90"],
   ["favicon.ico", "ee611bbcef485079c74fe05e671dbd1e"],
   ["favicon.png", "e7a6882479fac071ae2048ddf09d2241"],

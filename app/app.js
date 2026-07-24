@@ -43,7 +43,7 @@ const products = [
   {
     id: "jug-1",
     key: "pils-jug",
-    price: 14,
+    price: 15,
     type: "jug",
   },
   {
