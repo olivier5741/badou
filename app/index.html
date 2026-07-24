@@ -20,7 +20,7 @@
 
     <title>Badou</title>
     <style>
-      @media (min-width: 576px) and (min-height: 1000px) {
+      @media (min-width: 650px) and (min-height: 1000px) {
         .col-form-label,
         .form-control,
         .btn {
@@ -36,113 +36,148 @@
     </style>
   </head>
   <body>
-    <div class="container" style="max-width: 600px">
-      <div class="page-header py-3"></div>
+    <div class="container-fluid" style="max-width: 600px; min-width: 400px">
+      <div style="height: 100vh">
+        <form onsubmit="return false;" class="row m-3">
+          <div>
+            <div class="row mb-3">
+              <label for="product-1" class="col-form-label col-7">
+                Softs
+              </label>
+              <div class="col-5">
+                <input
+                  type="number"
+                  min="0"
+                  class="form-control"
+                  id="product-1"
+                />
+              </div>
+            </div>
 
-      <form onsubmit="return false;">
-        <div class="row mb-3">
-          <label for="product-1" class="col-form-label col-7"> Softs </label>
-          <div class="col-5">
-            <input type="number" min="0" class="form-control" id="product-1" />
+            <div class="row mb-3">
+              <label for="product-2" class="col-form-label col-7">
+                Pils / Blanche / Placebo
+              </label>
+              <div class="col-5">
+                <input
+                  type="number"
+                  min="0"
+                  class="form-control"
+                  id="product-2"
+                />
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <label for="product-3" class="col-form-label col-7">
+                Hopera / Fructus
+              </label>
+              <div class="col-5">
+                <input
+                  type="number"
+                  min="0"
+                  class="form-control"
+                  id="product-3"
+                />
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <label for="product-4" class="col-form-label col-7">
+                Maitrank
+              </label>
+              <div class="col-5">
+                <input
+                  type="number"
+                  min="0"
+                  class="form-control"
+                  id="product-4"
+                />
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="row mb-3">
+              <label for="jug-1" class="col-form-label col-7">
+                Cruche Pils / Blanche
+              </label>
+              <div class="col-5">
+                <input type="number" min="0" class="form-control" id="jug-1" />
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <label for="jug-2" class="col-form-label col-7">
+                Cruche Hopera / Fructus
+              </label>
+              <div class="col-5">
+                <input type="number" min="0" class="form-control" id="jug-2" />
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <label for="jug-3" class="col-form-label col-7">
+                Demi cruche Maitrank
+              </label>
+              <div class="col-5">
+                <input type="number" min="0" class="form-control" id="jug-3" />
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <label for="jug-4" class="col-form-label col-7">
+                Cruche Maitrank
+              </label>
+              <div class="col-5">
+                <input type="number" min="0" class="form-control" id="jug-4" />
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="row mb-3">
+              <label for="return-1" class="col-form-label col-7">
+                Gobelets rendus
+              </label>
+              <div class="col-5">
+                <input
+                  type="number"
+                  min="0"
+                  class="form-control"
+                  id="return-1"
+                />
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <label for="return-2" class="col-form-label col-7">
+                Cruches rendues
+              </label>
+              <div class="col-5">
+                <input
+                  type="number"
+                  min="0"
+                  class="form-control"
+                  id="return-2"
+                />
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="row fw-bold">
+              <label class="col-8 fs-3 text-end">Total</label>
+              <p class="col-4 fs-3 text-end"><span id="total">0</span>€</p>
+            </div>
           </div>
-        </div>
-
-        <div class="row mb-3">
-          <label for="product-2" class="col-form-label col-7">
-            Pils / Blanche / Placebo
-          </label>
-          <div class="col-5">
-            <input type="number" min="0" class="form-control" id="product-2" />
+          <div class="d-grid">
+            <button id="reset" type="reset" class="btn btn-secondary">
+              Reset
+            </button>
           </div>
-        </div>
-
-        <div class="row mb-3">
-          <label for="product-3" class="col-form-label col-7">
-            Hopera / Fructus
-          </label>
-          <div class="col-5">
-            <input type="number" min="0" class="form-control" id="product-3" />
-          </div>
-        </div>
-
-        <div class="row mb-3">
-          <label for="product-4" class="col-form-label col-7"> Maitrank </label>
-          <div class="col-5">
-            <input type="number" min="0" class="form-control" id="product-4" />
-          </div>
-        </div>
-
-        <hr />
-
-        <div class="row mb-3">
-          <label for="jug-1" class="col-form-label col-7">
-            Cruche Pils / Blanche
-          </label>
-          <div class="col-5">
-            <input type="number" min="0" class="form-control" id="jug-1" />
-          </div>
-        </div>
-
-        <div class="row mb-3">
-          <label for="jug-2" class="col-form-label col-7">
-            Cruche Hopera / Fructus
-          </label>
-          <div class="col-5">
-            <input type="number" min="0" class="form-control" id="jug-2" />
-          </div>
-        </div>
-
-        <div class="row mb-3">
-          <label for="jug-3" class="col-form-label col-7">
-            Demi cruche Maitrank
-          </label>
-          <div class="col-5">
-            <input type="number" min="0" class="form-control" id="jug-3" />
-          </div>
-        </div>
-
-        <div class="row mb-3">
-          <label for="jug-4" class="col-form-label col-7">
-            Cruche Maitrank
-          </label>
-          <div class="col-5">
-            <input type="number" min="0" class="form-control" id="jug-4" />
-          </div>
-        </div>
-
-        <hr />
-
-        <div class="row mb-3">
-          <label for="return-1" class="col-form-label col-7">
-            Gobelets rendus
-          </label>
-          <div class="col-5">
-            <input type="number" min="0" class="form-control" id="return-1" />
-          </div>
-        </div>
-
-        <div class="row mb-3">
-          <label for="return-2" class="col-form-label col-7">
-            Cruches rendues
-          </label>
-          <div class="col-5">
-            <input type="number" min="0" class="form-control" id="return-2" />
-          </div>
-        </div>
-
-        <hr />
-
-        <div class="row fw-bold">
-          <label class="col-8 fs-3 text-end">Total</label>
-          <p class="col-4 fs-3 text-end"><span id="total">0</span>€</p>
-        </div>
-
-        <div class="d-grid">
-          <button id="reset" type="reset" class="btn btn-secondary">
-            Reset
-          </button>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
 
     <script
