@@ -24,18 +24,24 @@ const products = [
   },
   {
     id: "product-2",
+    key: "water",
+    price: 0,
+    type: "glass",
+  },
+  {
+    id: "product-3",
     key: "pils",
     price: 2.5,
     type: "glass",
   },
   {
-    id: "product-3",
+    id: "product-4",
     key: "special",
     price: 3.5,
     type: "glass",
   },
   {
-    id: "product-4",
+    id: "product-5",
     key: "maitrank",
     price: 3.5,
     type: "glass",
@@ -76,6 +82,11 @@ const returns = [
     id: "return-2",
     key: "jug",
     price: 2,
+  },
+  {
+    id: "return-3",
+    key: "extra-glass",
+    price: -1,
   },
 ];
 

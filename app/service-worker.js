@@ -38,11 +38,11 @@
 "use strict";
 
 var precacheConfig = [
-  ["app.js", "2aaa52a667834eeb9725a35308058de6"],
+  ["app.js", "020fcb32e5b048a39b652649ead52174"],
   ["favicon-big.png", "2d4b15686dbaf4e246ac1dc9938e2a90"],
   ["favicon.ico", "ee611bbcef485079c74fe05e671dbd1e"],
   ["favicon.png", "e7a6882479fac071ae2048ddf09d2241"],
-  ["index.html", "bcfc26928e7b41a98245f31345868ba4"],
+  ["index.html", "bf194fc86b21456eb735d3a101d00ed0"],
   ["manifest.json", "d5bb9c72c7ce78e3180e656115466738"],
 ];
 var cacheName =
