@@ -42,7 +42,7 @@ var precacheConfig = [
   ["favicon-big.png", "2d4b15686dbaf4e246ac1dc9938e2a90"],
   ["favicon.ico", "ee611bbcef485079c74fe05e671dbd1e"],
   ["favicon.png", "e7a6882479fac071ae2048ddf09d2241"],
-  ["index.html", "cd2a28c43d5442779f7237431b5a2723"],
+  ["index.html", "accf0add70b04f949059761abf2e4ceb"],
   ["manifest.json", "d5bb9c72c7ce78e3180e656115466738"],
 ];
 var cacheName =
